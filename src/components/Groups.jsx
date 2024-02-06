@@ -10,7 +10,7 @@ const Groups = () => {
           id: 1,
           type: 'progress',
           question: 'what you are wearing on freshers?',
-          options: ['saari', 'western', 'kuchh nhi'],
+          options: ['saree', 'western', 'something different'],
           votes: [2, 3, 1],
         },
         {
