@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .animate-blink {
+        animation-name: blink;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .cursor-1 {
+        cursor: vertical-text;
+      }
+      .bg-image{
+        background-image: url('https://images.unsplash.com/photo-1622837137196-4b7b2b0b0b0a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGJhY2tncm91bmQlMjB3b3JsZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+      }
+}
